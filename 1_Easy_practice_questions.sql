@@ -33,7 +33,7 @@ FROM invoice
 GROUP BY billing_city
 ORDER BY invoice_total DESC
 LIMIT 1;
---Prague has the best customers with an invoice taota of 273.24.
+--Prague has the best customers with an invoice total of 273.24.
 
 /* Question 5: Who is the best customer? The customer who has spent
 the most money will be declared the best customer. Write a query that
